@@ -148,7 +148,7 @@
     background-color: rgb(253, 248, 239);
     text-align: center;
     border: 0.5px solid rgb(63, 60, 60);
-    margin: 1.25%;
+    /* margin: 1.25%; */
 }
 .button-sec{
     display: flex;
@@ -167,4 +167,77 @@
     margin-top: 30px;
     text-align: center;
     
+}
+
+/* -----------------------------------------Profile Section----------------------- */
+
+.profile{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.pro-img{
+    background-image: url(image-9.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
+    margin-left: 35%;
+}
+
+/* -----------------------Contact Section---------------------------- */
+.contact{
+    width: auto;
+    height: auto;
+    margin: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont-img{
+    width: auto;
+    height: auto;
+    margin-left: 40%;
+    
+}
+.cont-button{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+footer{
+    width: auto;
+    height: 250px;
+}
+.foot-panal1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panal a{
+    display: block;
+    font-size: 0.90rem;
+    padding-bottom: 5px;
+}
+.panal p{
+    font-size: 1.05rem;
+    padding-bottom: 5px;
+}
+.follow-us{
+    display: block;
+}
+.foot-panal2{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
